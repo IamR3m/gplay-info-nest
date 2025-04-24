@@ -60,7 +60,7 @@ Expected response
 # Response Code: 200 OK
 ```
 ```json
-{ "access_token": "1234567890abcdef" }
+{ "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c" }
 ```
 Get `access_token` from sign-up response or retrieve new one using sign-in request.
 
@@ -79,7 +79,7 @@ Expected response
 # Response Code: 200 OK
 ```
 ```json
-{ "access_token": "1234567890abcdef" }
+{ "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c" }
 ```
 ### Get application info
 Use previously retrieved `access_token` in `Authorization` header. `lang` and `country` query parameters are optional.
